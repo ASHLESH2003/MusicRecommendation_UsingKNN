@@ -42,3 +42,34 @@ The dataset includes audio features such as:
 ->Matplotlib – Visualization
 
 ->Cosine Similarity – For distance metric in KNN
+
+⚙️ How It Works
+1) Data Preprocessing
+
+   ->Load the dataset
+
+   ->Handle missing values
+
+   ->Normalize numeric features for KNN distance consistency
+
+2) Feature Selection
+
+   ->Select relevant audio features for computing similarity between songs.
+
+3) Modeling with KNN
+
+   ->Use cosine distance as the metric
+
+   ->Build a KNN model to find top k similar tracks based on feature proximity
+
+4) Recommendation Function
+
+   ->Input: A song name
+
+   ->Output: Top N similar songs from the dataset
+
+5) Evaluation
+
+   ->Basic evaluation of recommendation relevance
+
+   ->Accuracy based on a similarity threshold
