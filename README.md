@@ -73,3 +73,13 @@ The dataset includes audio features such as:
    ->Basic evaluation of recommendation relevance
 
    ->Accuracy based on a similarity threshold
+
+🚀 How to Run
+
+1) Upload SpotifyFeatures.csv in the same directory as the notebook.
+
+2) Open the MusicRecommendation_UsingKNN.ipynb in Google Colab or Jupyter.
+
+3) Run the notebook cells sequentially.
+
+4) Use the recommend_songs(song_name) function to get recommendations.
