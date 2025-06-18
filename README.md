@@ -6,24 +6,39 @@ The system uses Spotify audio features to find and recommend tracks that are mus
 
 📁 Dataset
 Source: Spotify dataset
+
 File: SpotifyFeatures.csv
 
 The dataset includes audio features such as:
 
 ->Popularity
+
 ->Danceability
+
 ->Energy
+
 ->Valence
+
 ->Tempo
+
 ->Acousticness
+
 ->Instrumentalness
+
 ->Speechiness
+
 ->Loudness
+
 ->Liveness
 
 🛠️ Technologies Used
+
 ->Python 3
+
 ->Pandas & NumPy – Data manipulation and analysis
+
 ->Scikit-learn – KNN modeling, feature scaling
+
 ->Matplotlib – Visualization
+
 ->Cosine Similarity – For distance metric in KNN
